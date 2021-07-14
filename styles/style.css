@@ -4,7 +4,7 @@
 
 
 body{
-/* margin: 0; */
+
 background-color: #E6E6E6;;
 font-family: 'Poppins', sans-serif;
 }
@@ -23,14 +23,18 @@ main{
 /* -------------------------
 conmebol-cup-style
 ---------------------------- */
-.containner{
+.container{
    
-    width:960px ;
+    width:1300px ;
     /* margin-top:5996px; */
-    height: 2550px;
+    height: px;
     background: #FFFFFF;
     
 }
+.player-album-container-two, .player-album-containeer-three, .player-album-containner-four{
+    margin-top: 20px;
+}
+
 
 .conmebol-cup-title{
   display: grid;
@@ -40,7 +44,7 @@ conmebol-cup-style
     background-color:blue;
     border: 3px solid blue;
   margin-bottom: 50px;
-  width: 954px;
+
 }
 .conmebol-heading{
     margin-top: 138px;
@@ -71,4 +75,90 @@ span{
     margin-top: 153px;
     margin-right: 93.33px;
     margin-bottom: 57.33px;
+}
+/* --------------------------
+player-album-stylesheet 
+-----------------------------*/
+
+
+.player-fream, .player-fream-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 30px;
+    margin-left: 10%;
+    width: 1050px;
+     
+}
+#player-shadow, #player-shadow-seven, #player-shadow-eight, #player-shadow-nine, #player-shadow-ten, #player-shadow-eleven, 
+#player-shadow-twelve{
+
+    background: #f7f5f5;
+    box-shadow: 0px 0px 12px 1px  rgb(226, 224, 224);
+    border: 2px solid rgb(240, 236, 236);
+    border-image-slice: 1;
+    
+}
+#player-shadow-two{
+   
+    background: #f7f5f5;
+    box-shadow: 0px 0px 12px 1px  rgb(226, 224, 224);
+    border: 2px solid rgb(240, 236, 236);
+    border-image-slice: 1;
+}
+#player-shadow-three{
+    background: #f7f5f5;
+    box-shadow: 0px 0px 12px 1px  rgb(226, 224, 224);
+    border: 2px solid rgb(240, 236, 236);
+    border-image-slice: 1;
+    
+}
+#player-shadow-four{
+    
+    background: #f7f5f5;
+    box-shadow: 0px 0px 12px 1px  rgb(226, 224, 224);
+    border: 2px solid rgb(240, 236, 236);
+    border-image-slice: 1;
+    
+}
+#player-shadow-five{
+   
+    background: #f7f5f5;
+    box-shadow: 0px 0px 12px 1px  rgb(226, 224, 224);
+    border: 2px solid rgb(240, 236, 236);
+    border-image-slice: 1;
+    
+}
+#player-shadow-six{
+
+    background: #f7f5f5;
+    box-shadow: 0px 0px 12px 1px  rgb(226, 224, 224);
+    border: 2px solid rgb(240, 236, 236);
+    border-image-slice: 1;
+    
+}
+
+.plyer img{
+  
+    padding: 15px;
+    width: 240px;
+    height: 230px;
+    margin-top: 8%;
+    margin-left: 9%; 
+     border-radius: 20px;
+   
+   
+    
+}
+
+.player-name{
+  margin-left: 13%;
+ 
+}
+.player-info{
+    float: none;
+    font-size: 17px;
+    width: 290px;
+    margin-left: 12.5%;
 }
