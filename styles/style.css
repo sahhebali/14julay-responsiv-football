@@ -1,0 +1,74 @@
+/*--------------------
+ BODY
+ --------------------- */
+
+
+body{
+margin: 0;
+background-color:black;
+font-family: 'Poppins', sans-serif;
+}
+/* -----------------------
+MAIN
+-------------------------- */
+main{
+  
+    display: grid;
+ justify-content: center;
+ align-items: center;
+    
+
+    
+}
+/* -------------------------
+conmebol-cup-style
+---------------------------- */
+.containner{
+   
+    width:960px ;
+    margin-top:5996px;
+    height: 2550px;
+    background: #FFFFFF;
+    
+}
+
+.conmebol-cup-title{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  grid-gap: 68px;
+    background-color:blue;
+    border: 3px solid blue;
+  margin-bottom: 50px;
+  width: 954px;
+}
+.conmebol-heading{
+    margin-top: 138px;
+
+    margin-left: 104px;
+    font-size: 42.66px;
+    color: #FFFFFF;
+}
+.button{
+        background: #E02C6D;
+        color: #FFFFFF;
+        padding: 10px 24px;
+        text-decoration: none;
+        margin-top: 18px;
+        margin-left: 104px;
+        font-weight: 700;
+
+}
+span{
+    color: yellow;
+}
+
+
+.conmebol-cup-banner img{
+    
+    width: 377.7px;
+    height: 292px;
+    margin-top: 153px;
+    margin-right: 93.33px;
+    margin-bottom: 57.33px;
+}
