@@ -27,7 +27,7 @@ conmebol-cup-style
    
     width:1300px ;
     
-    height:4000px;
+    height:4100px;
     background: #FFFFFF;
     
 }
@@ -244,3 +244,15 @@ color:rgb(63, 59, 59) ;
 font-weight: 500;
 font-family: sans-serif;
 }
+/*-----------------------
+ media-querise 
+ ------------------------*/
+ /*-----------------------
+  mobile-divie 
+  ------------------------*/
+  @media screen and (max-width:688px) {
+      .conmebol-cup-title, .conmebol-cup{
+          width: 90%;
+      }
+  }
+
