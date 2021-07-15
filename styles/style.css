@@ -174,3 +174,43 @@ player-album-stylesheet
     width: 290px;
     margin-left: 12.5%;
 }
+/* All Highlight stylesheet */
+.All-Highlights-input{
+   position: relative;
+}
+.All-Highlights-details{
+    display: flex;
+}
+.All-Highlights-input{
+    justify-items: center;
+}
+.Highlights-heading {
+    margin-top: 165px;
+    margin-left: 126px;
+    font-size:50px;
+    color: rgb(48, 56, 52);
+}
+.Highlights-description{
+    width: 500px;
+    height: 300px;
+    margin-left: 126px;
+    margin-right: 50px;
+    color: rgb(150, 147, 147);
+}
+.anchor{
+    position: absolute;
+    background: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-left: -350px;
+    font-weight: 700;
+}
+
+.All-Highlights-match img{
+    width: 567px;
+    height: 427px;
+    margin-top: 106px;
+    margin-right: 156px;
+}
