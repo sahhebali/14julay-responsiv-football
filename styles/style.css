@@ -27,7 +27,7 @@ conmebol-cup-style
    
     width:1300px ;
     
-    height:3750px;
+    height:4000px;
     background: #FFFFFF;
     
 }
@@ -213,4 +213,34 @@ player-album-stylesheet
     height: 427px;
     margin-top: 106px;
     margin-right: 156px;
+}
+/*-- football-banner-stlesheet --> */
+.banner-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.football-banner img{
+    width: 50%;
+    margin-left: 300px;
+}
+.awesome-font{
+    display: flex;
+    margin-left: 170px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.awesome-font-one img, .awesome-font-two img, .awesome-font-three img, .awesome-font-four img{
+    width: 50%;
+    
+}
+.copy-right{
+margin-left: 80px;
+color:rgb(63, 59, 59) ;
+font-weight: 500;
+font-family: sans-serif;
 }
