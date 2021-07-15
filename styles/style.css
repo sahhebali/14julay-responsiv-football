@@ -26,13 +26,20 @@ conmebol-cup-style
 .container{
    
     width:1300px ;
-    /* margin-top:5996px; */
-    height: px;
+    
+    height:3750px;
     background: #FFFFFF;
     
 }
-.player-album-container-two, .player-album-containeer-three, .player-album-containner-four{
-    margin-top: 20px;
+.player-album-container{
+    margin-top: 70px;
+}
+.player-album-container-two{
+    margin-top: 69px;
+}
+.player-album-containner-four{
+    margin-top: 86px;
+
 }
 
 
@@ -40,26 +47,31 @@ conmebol-cup-style
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
-  grid-gap: 68px;
+  grid-gap: 102px;
     background-color:blue;
     border: 3px solid blue;
-  margin-bottom: 50px;
+    
 
 }
+.conmebol-cup{
+    position: relative;
+}
 .conmebol-heading{
-    margin-top: 138px;
+    margin-top: 0px;
 
-    margin-left: 104px;
-    font-size: 42.66px;
+    margin-left: 120px;
+    font-size: 50px;
     color: #FFFFFF;
 }
 .button{
+    position: absolute;
         background: #E02C6D;
         color: #FFFFFF;
         padding: 10px 24px;
         text-decoration: none;
-        margin-top: 18px;
-        margin-left: 104px;
+    
+        margin-bottom: 50px;
+        margin-left: 119px;
         font-weight: 700;
 
 }
